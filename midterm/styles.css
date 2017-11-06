@@ -100,10 +100,10 @@ header{
     text-align:center;
     clear: both;
 }
-    .row a{text-decoration: none;}
+    .row1 a{text-decoration: none;}
  
     
-.row{
+.row1{
     display:flex;
     flex-direction: row;
     padding-top: 50px;
@@ -125,14 +125,14 @@ header{
         font-size: 30px;
     }
 
-    #row1{
+    #row11{
         background-image: url(images/nainoa-shizuru-80385.jpg);
         background-repeat: no-repeat;
         background-size:contain;
          width: 3500px;
         height: 980px;
     }
-    #row2{
+    #row22{
          background-image: url(images/andrew-gaines-285238.jpg);
          background-repeat: no-repeat;
          background-size:contain;
@@ -237,11 +237,12 @@ nav{
     
   
 }
-h3{
+h3 {
     text-align: center;
     margin-top:50px;
     font-family: 'Gurajada', serif;
     font-size: 90px;
+ 
 }
 
 nav ul{
@@ -269,9 +270,12 @@ nav a:hover{
     text-decoration: underline deeppink;
 
 }
+    .row{
+        display: none;
+    }  
 }
 
-@media (max-width:667px){
+@media (max-width:660px){
 
 body{ 
     background-image:url(images/efe-kurnaz-315384.jpg)
@@ -313,13 +317,43 @@ body{
 .dropdown:hover .toggle-content {
     display: block;
 }
+    .row{
+      width:1750px;
+        height: 490px;
+        flex-direction: column;
+    }
     .row2{
-display: none;}
-
-
+        display: none;
+    }
+    h3{
+       color: white;
+       padding-top: 150px;
+      
+    }
+    a{
+        text-decoration: none;
+        
+    }
+    #row1 h3{
+        
+       margin-left: 150px;
+    }
+      #row2 h3{
+        
+       margin-left: 150px;
+    }
+    a h3{
+        text-decoration: none;
+        font-family: 'Gurajada', serif;
+        font-size: 50px;
+        
+        
+    }
  header {
     text-align: center;
     clear:both;
+   
+     
    
 }
     nav a{
@@ -330,10 +364,9 @@ display: none;}
         
         display: none;
     }
-   .column{
-    flex-direction: column;
-   
-     }
+
+  
+
     h2{
     text-shadow: 1px 1px 2px pink, 0 0 25px blue, 0 0 5px darkblue;
     font-family: 'Gurajada', serif;
@@ -345,25 +378,29 @@ display: none;}
     h5{
         display: none;
     }
- #row1{
-        background-image: url(images/nainoa-shizuru-80385.jpg);
-        background-repeat: no-repeat;
-       background-size: cover;
-    width:100%;
-     
-        ;
-    }
-    #row2{
-         background-image: url(images/andrew-gaines-285238.jpg);
-         background-repeat: no-repeat;
-         background-size:contain;
          
-        width: 100%;
-    } 
+     
+  
+
+}
+ #row1{
+     background-image: url(images/nainoa-shizuru-80385.jpg);
+     background-size: contain;
+     width: 1750px;
+     height: 490px;
+    }
+      #row2{
+     background-image: url(images/andrew-gaines-285238.jpg);
+     background-size: contain;
+     width: 1750px;
+     height: 490px;
+    }
+
+      
+
+
     
     
-    
-    
-    
+} 
     
 }
