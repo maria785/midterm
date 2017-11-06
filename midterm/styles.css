@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-@media (min-width:640px){
+@media (min-width:2560px){
 body{
     background-image:url(images/efe-kurnaz-315384.jpg);
 
@@ -182,7 +182,7 @@ header{
         text-align: center;
         margin-top: -300px;
         padding-bottom: 50px;
-        padding-top: 30px;
+        padding-top: 150px;
         
     }
     h3{
